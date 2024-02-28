@@ -16,16 +16,8 @@ def test_word_count():
            [('am', 2), ('ham', 1), ('i', 2), ('is', 1), ('sam', 2)]
 
 
-    
 
-
-
-    
-    
-    
 ### PART TWO ###
-
-
 
 def test_sentiment_map():
     assert sentiment_map('it was a terrible waste of time') == [('negative', 1), ('negative', 1)]
